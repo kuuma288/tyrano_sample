@@ -1,46 +1,37 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="走るかするメロス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+あなたは、これからとある実験に参加する。」[l][r]
+あなたの名前は[l][r]
+[link target=*tag_Alice] →Alice [endlink][r]
+[link target=*tag_Bob] →Bob[endlink][r]
 [s]
 
-*tag_sleep
 
+*tag_Alice
 [cm]
+[bg 　]
+???　こんにちは、Alice.[l][r]
+実験責任者のS教授だ。初めて会うので緊張する。[l][r]
+「こんにちは、よろしくお願いします」[l][r]
+S教授　早速実験の話だが、あなたはたい焼きの「頭」と「尻尾」どちらが好きかな？[l][r]
+？？(質問の意図が分からないが答えておこう)[l][r]
+[link target=*tag_ata] →頭 [endlink][r]
+[link target=*tag_Bob] →尻尾[endlink][r]
+[s]
 
-[bg storage=sleep.jpg time=500]
-
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
-
-【 BAD END 】[l][cm]
-
-[jump target=*start]
-
-*tag_run
-
-[bg storage=run.jpg time=500]
-
+*tag_頭
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+[bg 　]
+S教授　そうかい、Alice.[l][r]
 
+
+食べたい部位
 【 GOOD END 】[l][cm]
 
 [jump target=*start]
