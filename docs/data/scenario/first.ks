@@ -6,7 +6,7 @@
 [freeimage layer="base"]
 
 
-
+[l]
 [bg docs/data/bgimage/pexels-huuhuynh-29325591.jpg]
 あなたは深夜コンビニにアイスを買いに行く道中トラックにはねられ、異世界に転生した。[l][r]
 
