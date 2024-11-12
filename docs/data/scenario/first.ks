@@ -6,8 +6,8 @@
 [freeimage layer="base"]
 
 
-[l]
-[bg docs/data/bgimage/pexels-huuhuynh-29325591.jpg]
+
+[bg storage=docs/data/bgimage/pexels-huuhuynh-29325591.jpg]
 あなたは深夜コンビニにアイスを買いに行く道中トラックにはねられ、異世界に転生した。[l][r]
 
 転生した先は…[l][r]
@@ -25,7 +25,7 @@
 ？？？「鏡よ鏡、世界で一番美しいのは誰？」[l][r]
 
 鏡「それは、王妃様です。」[l][r]
-[bg 　docs/data/bgimage/mirror.png]
+[bg storage=docs/data/bgimage/mirror.png]
 自分は白雪姫にでてくる「魔法の鏡」に転生していた。[1][r]
 
 王妃「鏡よ鏡、世界で一番美しいのは誰？」[r]
@@ -87,7 +87,7 @@
 
 *tag_atc
 [cm]
-[bg docs/data/bgimage/gomi_poribaketsu_close.png]
+[bg storage=docs/data/bgimage/gomi_poribaketsu_close.png]
 鏡としての利用価値がないと判断され,あなたはゴミ箱に捨てられた。[1][r]
 
 王妃「鏡よ鏡、世界で一番美しいのは誰？」[r]
@@ -102,9 +102,12 @@
 
 
 
-*tag_Bob
-[cm]
 
+
+
+*tag_Bob
+
+[cm]
 [bg 　]
 
 …[l][r]
@@ -112,7 +115,7 @@
 ？？？「鏡よ鏡、世界で一番美しいのは誰？」[l][r]
 
 鏡「それは、王妃様です。」[l][r]
-[bg 　docs/data/bgimage/mirror.png]
+[bg storage=docs/data/bgimage/mirror.png]
 自分は白雪姫にでてくる「魔法の鏡」に転生していた。[1][r]
 
 王妃「鏡よ鏡、世界で一番美しいのは誰？」[r]
@@ -174,7 +177,7 @@
 
 *tag_atc
 [cm]
-[bg docs/data/bgimage/gomi_poribaketsu_close.png]
+[bg storage=docs/data/bgimage/gomi_poribaketsu_close.png]
 鏡としての利用価値がないと判断され,あなたはゴミ箱に捨てられた。[1][r]
 
 王妃「鏡よ鏡、世界で一番美しいのは誰？」[r]
@@ -184,6 +187,7 @@
 ...[1][r]
 気が付くと、あなたはコンビニの前のごみ箱の前にいた。すぐに家に帰った。[l][r]
 【 BAD？ END 】「最速帰還」[1][cm]
+
 [jump target=*start]
 
 
